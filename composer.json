@@ -31,10 +31,5 @@
     "scripts": {
         "test": "vendor/bin/simple-phpunit",
         "test-ci": "vendor/bin/simple-phpunit --coverage-text --coverage-clover=build/coverage.xml"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.3-dev"
-        }
     }
 }
